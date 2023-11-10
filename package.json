@@ -1,0 +1,23 @@
+{
+  "name": "performance-tests",
+  "version": "1.0.0",
+  "description": "Project for creating and maintaining performance test scripts",
+  "main": "",
+  "scripts": {
+    "docker:up": "docker-compose up -d influxdb grafana",
+    "docker:down": "docker-compose down -v",
+    "format": "yarn prettier --write ."
+  },
+  "author": "Chapter QA",
+  "license": "ISC",
+  "packageManager": "yarn@3.4.1",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.4"
+  }
+}
